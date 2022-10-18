@@ -5,75 +5,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Interior Design Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body> 
-    <!-- ----------------------nav ---------------------------------------  -->
-    <header>
-    <!-- ----------------logo --------------->
+<body>
+    <nav class="navigate">
         <div class="logo">
-            <img src="assets/Logo.png" alt="">
+            <img src="./assets/Logo.png" alt="logo">
         </div>
-    <!-- ----------------logo ends --------------->
-
-
-    <!-- ----------------Menu --------------->
-        <div class="list-items">
-            <ul>
-                <li>About us</li>
-                <li>Benefits</li>
-                <li>Projects</li>
-                <li>Stages</li>
-                <li>Services</li>
-            </ul>
-
-            <div class="phone-contact">
-                <div>
-                    <img src="assets/call.png" alt="">
+        <ul class="items">
+            <li class="item"><a href="#">About Us</a></li>
+            <li class="item"><a href="#">Benefits</a></li>
+            <li class="item"><a href="#">Projects</a></li>
+            <li class="item"><a href="#">Stages</a></li>
+            <li class="item"><a href="#">Services</a></li>
+        </ul>
+        <div class="phone">
+            <i class="fa-solid fa-phone-volume"></i>
+            <div class="contact-info">
+                <h3>Call Us</h3>
+                <h4>+234(800)2483 58 91</h4>
+            </div>
+        </div>
+        <div class="burger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+   
+    <section class="message">
+        <div class="message-heading">
+            <h1>Interior Design That Care About Details</h1>
+            <div class="icon-1">
+                <div class="icon">
+                    <i class="fa-solid fa-puzzle-piece"></i>
                 </div>
-                <div>
-                    <h2>Call Us</h2>
-                    <h3>+38 (097) 485 65 85</h3>
+                <p>We create your space better <br> based on your own idea</p>
+                <div class="line-1"></div>
+                <div class="bulb bulb1"></div>
+            </div>
+
+        </div>
+        <div class="message-heading">
+            <div class="button">
+                <button>LEARN MORE</button>
+            </div>
+            <div class="icon-2">
+                <div class="icon">
+                    <i class="fa-regular fa-lightbulb"></i>
                 </div>
+                <p>Innovation ideas, stylish design <br>for home & Business</p>
+                <div class="line-2"></div>
+                <div class="bulb bulb2"></div>
             </div>
-        </div>
-        <!-- ----------------End Menu --------------->
-    </header>
-    <!-- ----------------------End nav ---------------------------------------  -->
-
-    <!-- ----------------------Section ---------------------------------------  -->
-    <section class="main-section">
-        <div class="heading">
-            <h1>Interior Designs That Care About Details</h1>
-            <button>Learn More</button>
-        </div>
-
-        <div class="bolb1">
-            <div class="Image">
-                <img src="assets/puzzle.png" width="50px" alt="">
-            </div>
-            <article>We create your space better based on your ideas</article>
-        </div>
-
-        <div class="bolb2">
-            <div class="Image">
-                <img src="assets/bulb.png" width="50px" alt="">
-            </div>
-            <article>Innovative Ideas, Styleish Designs for Home's and Buissness</article>
-        </div>
-
-        <div class="lines">
-            <div class="line"></div>
-            <div class="circle"></div>
-        </div>
-
-        <div class="lines1">
-            <div class="line1"></div>
-            <div class="circle1"></div>
         </div>
     </section>
+
 </body>
 
 </html>
